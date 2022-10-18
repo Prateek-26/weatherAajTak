@@ -26,7 +26,8 @@ app.post("/weather",function(req,res){
     const image_URL =" ";
 
     const city = req.body.city_name;
-    const appid = process.env.API_KEY;
+    // const appid = process.env.API_KEY;
+    const appid = "884465c1ef0bae35c5b50e87c432cf6e"
     const units = "metric";
 
     const url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + appid + "&units=" + units;
