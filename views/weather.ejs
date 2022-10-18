@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Weather</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="result_page">
+        <h1 class="city_h1"><%= c %></h1>
+        <div class="result">
+            <img class="result_image" src="<%= i %>" alt="undefined">
+            <h1 class="temp_h1"><strong><%= t %></strong>⁰ celcius</h1>
+            <h1 class="desc_h1"><%= d %></h1>
+            <form action="/" action="post">
+                <button class="btn btn-dark result-btn" type="submit">Check Another City</button>
+            </form>
+        </div>
+    </div>
+    <a href="/about" class="footer-link"><%- include('partials/footer') -%></a></body>
+</html>

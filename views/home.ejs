@@ -1,0 +1,52 @@
+<%- include('partials/header') -%>
+    <section class="home_page">
+        <!-- <nav class="navbar navbar-expand-lg bg-light"> -->
+              <nav class="navbar navbar-expand-sm">
+
+              <a class="navbar-brand" href="/about"  style="color: orangered;">KYW</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link" aria-current="page" href="/"    style="border-bottom: 3px solid orangered;">Home</a>
+                  <a class="nav-link" href="/about">About</a>
+                </div>
+              </div>
+          </nav>
+
+          
+          
+          <div class="home_form">
+              <h1 class="home_header">KNOW YOUR WEATHER.</h1>
+            <form action="/weather" method="post">
+              <input class="home-input" type="text" name="city_name" autocomplete="off" placeholder="City">
+              <button class="btn btn-dark home-btn" type="submit">Go</button>
+            </form>
+          </div>
+
+          <div class="home_art">
+          <marquee behavior="" direction="left" scrollamount="7">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+          </marquee>
+
+          <marquee behavior="" direction="right" scrollamount="20">
+            <i class="fa-solid fa-cloud"></i>
+            <i class="fa-sharp fa-solid fa-cloud-bolt"></i>
+            <i class="fa-solid fa-cloud-rain"></i>
+            <i class="fa-solid fa-cloud"></i>
+          </marquee>
+
+          <marquee behavior="" direction="" scrollamount="15">
+            <i class="fa-solid fa-wind"></i>
+            <i class="fa-solid fa-bolt"></i>
+            <i class="fa-solid fa-droplet"></i>
+          </marquee>
+          </div>
+            
+        </section>
+        <a href="/about" class="footer-link"><%- include('partials/footer') -%></a>
+</body>
+</html>

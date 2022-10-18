@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #fff;
+}
+form{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background: #000;
+    color: #fff;
+    height: 5vh;
+    padding: 1.5rem 0;
+    padding-left: 1rem;
+}
+.navbar-brand{
+    color: orangered;
+    font-weight: bolder;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: orangered;
+}
+.home_header{
+    display: block;
+    position: absolute;
+    top: 5rem;
+    font-size: 6rem;
+    text-align: center;
+}
+.home_form{
+    background: #000;
+    position: relative;
+    height: 90vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home_art{
+    bottom: 15%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.home-input{
+    margin-top: 2.5rem;
+    width: 100%;
+    padding: 0.5rem; 
+    outline: none;
+}
+.home-btn{
+    margin-top: 1rem;
+    padding: 0.2rem 2rem;
+}
+.home-btn:hover{
+    background: orangered;
+}
+.fa-solid,.fa-regular{
+    font-size: 2.5rem;
+    margin: 0 30rem;
+    color: #fff;
+}
+.fa-sun{
+    color: orangered;
+}
+.fa-cloud{
+    color: #5b696e;
+}
+.fa-droplet{
+    color: aqua;
+}
+.fa-bolt{
+    color: gold;
+}
+.fa-cloud-bolt{
+    color: #5b696e;
+}
+.home_footer{
+    text-align: center;
+    color: #fff;
+    background: #000;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    padding: 1rem 0;
+}
+
+/* Result */
+.result_page{
+    height: 100vh;
+    width: 100vw;
+    background: #000; 
+    color: #fff;
+}
+.result{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.city_h1{
+    color: orangered;
+    text-align: right;
+    padding: 1rem 1.2rem;
+}
+.result strong{
+    border-bottom: 5px solid orangered;
+}
+.temp_h1{
+    font-size: 3rem;
+}
+.desc_h1{
+    font-size: 3rem;
+}
+.result img{
+    height: 10rem;
+    width: 10rem;
+    padding: 2rem;
+    font-size: 25rem;
+    border: solid rgb(74, 74, 74); 
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.result-btn:hover{
+    background: orangered;
+}
+
+/* About */
+.about-page{
+    height: 100vh;
+    background: #000;
+    padding: 0 3rem;
+    overflow: hidden;
+}
+.about-page form{
+    width: 75%;
+}
+.about-div{
+    width: 75%;
+    margin-top: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+.about-h1{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-size: 4rem;
+    color: white;
+    margin-top: 2rem;
+    border-bottom: 5px solid orangered;
+}
+
+.about-btn:hover{
+    background-color: orangered;
+}
+.about-content{
+    margin: 2rem 0;
+    color: white;
+}
+.about{
+    font-size: 2.5rem;
+}
+
+/* Faliure */
+.fail{
+    height: 100vh;
+    background: #000;
+    padding: 0 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fail-content{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fail-icon{
+    font-size: 12rem;
+    margin: 2rem 0;
+    color: white;
+}
+.fail-h2{
+    background: #000;
+    color: orangered;
+    font-size: 4rem;
+}
+.fail-cloud{
+    color: #5b696e;
+}
+.fail-umb{
+    color: #fff;
+}
+.fail-btn:hover{
+    background: orangered;
+}
